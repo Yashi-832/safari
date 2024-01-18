@@ -1,0 +1,29 @@
+.floating{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #40BAD4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size:20px;
+    cursor: pointer;
+}
+.floating:hover{
+    background-color: #fff;
+    color: #40BAD4;
+    transition: all 0.3s ease-in-out;
+}
+
+.animatedImage{
+    animation: animateLogo 2.5s ;
+    animation-fill-mode: forwards;
+}
+@keyframes animateLogo {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
